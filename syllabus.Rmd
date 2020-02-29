@@ -1,0 +1,147 @@
+---
+title: "Syllabus"
+subtitle: "Stat 223, Winter 2020"
+author: "James Blair"
+output: html_document
+---
+
+## Course Description
+
+Advanced R programming skills, advanced data techniques, simulation studies.
+
+Prerequisites: STAT 123.
+
+## Learning Outcomes
+
++ Install R, R packages, and RStudio.
++ Advanced data management, manipulate, and transform data.
++ Solve complex problems using advanced R programming methodology.
++ Perform simulation studies, e.g. Central Limit Theorem, confidence intervals,
+etc.
++ **Gain confidence in R programming.**
+
+## Computing Platform
+
+The computing platform for STAT 223 is [RStudio Cloud](https://rstudio.cloud/).
+This is a free, browser based RStudio instance. You will need to sign up for
+your own individual account. All course notes and assignments will be made
+available on RStudio.cloud.
+
+## Homework
+
+Homework will be distributed throught RStudio Cloud and is due as indicated in
+the assignment and on the [assignments](assignments.html) page. Homework may be
+submitted late at a 2 points per 24 hours penalty. Depending on the nature of
+the homework, it may be graded on correctness or effort. If homework is graded
+on effort, the following guide will be used:
+
++ 0:  Nothing submitted
++ 6:  Little effort is evident
++ 10:  Substantial effort is evident but it is not obvious that it is correct
++ 12: Substantial effort is evident and it appears to be correct
+
+After your homework has been graded, a `feedback.txt` file will be added to
+your RStudio Cloud project to provide specific feedback on your grade.
+
+Please note that solutions for homework assignments are not terribly difficult
+to find online. While you are free to use any resources available to complete
+your homework, *homework submissions that are copies of existing solutions will
+not receive any credit*. If your homework appears suspiciously similar to
+existing solutions, you will not receive any credit unless you can prove
+originality. Simply changing variable names does not make it your own. *You are
+responsible for submitting homework that reflects your efforts and understanding
+of the material.*
+
+
+## Exams
+
+Both the midterm and the final exam will be take home exams. Exams are designed
+to assess a student's mastery of concepts, skills, and connections between
+lecture and homework. You are allowed to use course notes and resources from the
+internet to assist you during the exams. However, you are not allowed to discuss
+the exam with other students or work on the exam together. Exams must be
+individually completed and submitted.
+
+
+## Grading
+
+Item               | Weight
+-------------------|------:
+Participation      |     5%
+Homework           |    20%
+Midterm Exam       |    35%
+Final Exam         |    40%
+
+Class attendance, participation, citizenship, and improvement over the course
+may be used in determining final grades in extreme situations.  All course
+material is kept on file for one semester.  Any review or appeal must be made
+within that time frame. 
+
+## Teaching Assistants
+*All TA office hours are in 244 TMCB*
+
+* Matthew Morgan | [matt4byu@gmail.com](mailto:matt4byu@gmail.com)
+  * MW 11am-1pm
+  * T 12pm-1pm; 3pm-4pm
+* Joe Cosby | [josephcoz@gmail.com](mailto:josephcoz@gmail.com)
+  * MW 9am-12pm
+* Skyler Gray | [skylerg022@gmail.com](mailto:skylerg022@gmail.com)
+  * MW 1pm-3pm
+* Daniel Tolley | [dtolley1997@gmail.com](mailto:dtolley1997@gmail.com)
+  * T 10am-11am
+  * Th 10am-12pm
+
+## Office Hours
+
+My office is 204 TMCB (Don't be thrown off by the fact that the name on the
+office says Jared Ward - we share an office). I will hold office hours on
+Mondays from 1:00-1:30 pm and Wednesdays from 2:00-2:30 pm.
+
+## Honor Code
+
+In keeping with the principles of the BYU Honor Code, students are expected to
+be honest in all of their academic work. Academic honesty means, most
+fundamentally, that any work you present as your own must in fact be your own 
+work and not that of another. Violations of this principle may result in a
+failing grade in the course and additional disciplinary action by the 
+university. Students are also expected to adhere to the Dress and Grooming
+Standards. Adherence demonstrates respect for yourself and others and ensures
+an effective learning and working environment. It is the university's
+expectation, and every instructor's expectation in class, that each student
+will abide by all Honor Code standards. Please call the Honor Code Office at
+1-801-422-2847 if you have questions about those standards.
+
+## Sexual Misconduct
+
+As required by Title IX of the Education Amendments of 1972, the university
+prohibits sex discrimination against any participant in its education programs
+or activities. Title IX also prohibits sexual harassment --- including sexual
+violence --- committed by or against students, university employees, and 
+visitors to campus. As outlined in university policy, sexual harassment, dating
+violence, domestic violence, sexual assault, and stalking are considered forms
+of "Sexual Misconduct" prohibited by the university.
+
+University policy requires any university employee in a teaching, managerial,
+or supervisory role to report incidents of sexual misconduct that come to their
+attention through various forms including face-to-face conversation, a written
+class assignment or paper, class discussion, email, text, or social media post.
+If you encounter sexual misconduct, please contact the Title IX Coordinator at
+t9coordinator&#64;byu.edu or 1-801-422-2130 or Ethics Point at
+https://titleix.byu.edu/report or 1-888-238-1062 (24-hours). Additional
+information about Title IX and resources available to you can be found at
+http://titleix.byu.edu.
+
+## Student Disability
+
+Brigham Young University is committed to providing a working and learning
+atmosphere that reasonably accommodates qualified persons with disabilities. If
+you have any disability which may impair your ability to complete this course
+successfully, please contact the University Accessibility Center (UAC), 2170
+WSC or 1-801-422-2767. Reasonable academic accommodations are reviewed for all 
+students who have qualified, documented disabilities. The UAC can also assess
+students for learning, attention, and emotional concerns. Services are 
+coordinated with the student and instructor by the UAC. If you need assistance
+or if you feel you have been unlawfully discriminated against on the basis of
+disability, you may seek resolution through established grievance policy and 
+procedures by contacting the Equal Employment Office at 1-801-422-5895, D-285
+ASB.

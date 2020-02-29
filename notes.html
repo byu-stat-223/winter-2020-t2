@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Notes</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Stat 223</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="notes.html">Notes</a>
+</li>
+<li>
+  <a href="assignments.html">Assignments</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Notes</h1>
+
+</div>
+
+
+<!--
+Schedule:
+2019-09-30: In class midterm review
+2019-10-02: Midterm due. class canceled 
+2019-10-07: Finish BS. Introduce permutations (lecture 10) HW 4 is due. HW 5 is assigned.
+2019-10-09: Further permutations (finish lecture 10)
+2019-10-14: HW 5 is due. Tidyverse examples. 
+2019-10-16 (family pictures): Final review (TAs handle the review)
+2019-10-21: Last day of class; final exam due; class canceled
+
+Possible R Moments:
+- opencpu
+- htmlwidgets
+- RMarkdown
+- h2o
+- drake
+- charlatan
+
+
+#### 2018-10-18
+
+*My God hath been my support; he hath led me through mine afflictions in the 
+wilderness; and he hath preserved me upon the waters of the great deep. He hath 
+filled me with his love, even unto the consuming of my flesh. He hath confounded 
+mine enemies, unto the causing of them to quake before me.*
+
+\- [2 Nephi 4:20-22](https://www.lds.org/scriptures/bofm/2-ne/4.20-22)
+
++ Announcements
+  + Final exam starts tomorrow at 8am and is due Monday (2018-10-22) at 11:59pm
+  + No class on Tuesday (2018-10-23)
++ R Moment: [Hands-On Programming with R](https://rstudio-education.github.io/hopr/index.html)
++ Intro to the [Tidyverse](https://www.tidyverse.org)
+
+![](data-science-workflow.png)
+
+  + [Data sets](https://www.kaggle.com/datasets)
+  + [NBA EDA](https://github.com/byu-stat-223/nba-players)
+  + [Google Playstore EDA](https://github.com/byu-stat-223/google-playstore)
+
+
+#### 2019-04-15
+
+*Considering the Savior’s great promise for peace in this life and eternal life 
+in the life to come, discipleship is a price worth paying. It is a price we cannot 
+afford not to pay. By measure, the requirements of discipleship are much, much 
+less than the promised blessings.*
+
+\- James E. Faust ([GC October 2006](https://www.lds.org/general-conference/2006/10/discipleship?lang=eng){target="_blank"})
+
++ Announcements:
+  + Final exam opens 6:00pm Today
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - not open neighbor
+    + Due 11:59pm on Wednesday (2019-04-17)
+    + No class on Wednesday (2019-04-17)
+    + Plan on ~2-3 hours
++ R Moment: [rvest](https://rvest.tidyverse.org/index.html){target="_blank"}
++ [Practice Final](https://rstudio.cloud/spaces/12013/project/307411){target="_blank"}
++ Installing R and RStudio
+  + [R](https://cran.r-project.org/){target="_blank}
+  + [RStudio](https://www.rstudio.com/products/rstudio/download/#download){target="_blank}
+
+#### 2019-12-09
+
+*The Lord is with us, mindful of us and blessing us in ways only He can do.
+Prayer can call down the strength and the revelation that we need to center our
+thoughts on Jesus Christ and His atoning sacrifice. The Lord knew that at times
+we would feel fear. I have been there and so have you, which is why the
+scriptures are replete with the Lord’s counsel: “Be of good cheer, and do not
+fear.”*
+
+\- Ronald A. Rasband ([GC October
+2018](https://www.lds.org/general-conference/2018/10/be-not-troubled?lang=eng){target="_blank"})
+
++ Announcements:
+  + Final exam opens at 6:30pm today
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - not open neighbor
+    + No class on Wednesday (2019-12-11)
+    + Due 11:59pm on Wednesday (2019-12-11)
+    + Plan on ~2-3 hours
++ R Moment: [Plumber](https://www.rplumber.io/){target="_blank"}
++ [Homework 5](https://rstudio.cloud/spaces/36306/project/664618){target="_blank"} Questions
++ [Enter the Tidyverse](https://www.tidyverse.org/){target="_blank"}
+
+    ![](data-science-workflow.png)
+
+  + [Tidy Tuesday Data](https://github.com/rfordatascience/tidytuesday){target="_blank"}
+
+#### 2019-12-04
+
+*Considering the Savior’s great promise for peace in this life and eternal life 
+in the life to come, discipleship is a price worth paying. It is a price we cannot 
+afford not to pay. By measure, the requirements of discipleship are much, much 
+less than the promised blessings.*
+
+\- James E. Faust ([GC October 2006](https://www.lds.org/general-conference/2006/10/discipleship?lang=eng){target="_blank"})
+
++ Announcements:
+  + Final exam opens 6:30pm Monday, 2019-12-09
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - not open neighbor
+    + Due 11:59pm on Wednesday (2019-12-11)
+    + Plan on ~2-3 hours
++ R Moment: [h2o](https://www.h2o.ai/){target="_blank"}
++ Midterm results:
+  ![](exam-1-grade-distribution.png)
++ [Homework 5](https://rstudio.cloud/spaces/36306/project/664618){target="_blank"} Questions
++ [Exam Review](https://rstudio.cloud/spaces/36306/project/664665){target="_blank"}
+  + Exam 5: Movies
+  + Exam 4: General Conference
+  
+  
+#### 2020-02-12
+- RStudio Connect / Quickstart R moment
+- Midterm solutions / grades
+- Tidyverse day
+
+#### 2020-02-18
+- Bootstrapping and permutation testing - relationship and comparison
+
+#### 2020-02-19
+- Tidy non-parametrics (infer package)
+
+#### 2020-02-24
+- Final exam review
+
+#### 2020-02-26
+- Class canceled for exam
+
+#### 2020-02-19
+
+<iframe src="https://drive.google.com/file/d/1skjOSrn2xTRha_xDiGb9Cdm-xGV5sILf/preview" width="640" height="480"></iframe>
+
+#### 2020-02-18
+
+<iframe src="https://drive.google.com/file/d/1Z2cQInRqGnUXsgygJDwmySOjnU3MlTG0/preview" width="640" height="480"></iframe>
+
+#### 2020-02-12
+
+*Considering the Savior’s great promise for peace in this life and eternal life 
+in the life to come, discipleship is a price worth paying. It is a price we cannot 
+afford not to pay. By measure, the requirements of discipleship are much, much 
+less than the promised blessings.*
+
+\- James E. Faust ([GC October 2006](https://www.lds.org/general-conference/2006/10/discipleship?lang=eng){target="_blank"})
+
++ Announcements
+  + [Domo Hackathon](domo-hackathon.png)
+  + Lecture videos for next week will be posted on the course website
+  + Optional TA labs next Tuesday and Wednesday, 3:00-4:30pm in 2104 JKB
+  + Final exam
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Plan on ~2-3 hours
+    + Review in class Monday, February 24
+    + Exam opens ~6:30pm on February 24
+    + Exam due 11:59pm on Wednesday (2020-02-26) (No late submissions accepted)
+    + No class Wendesday (2020-02-26)
++ R Moment: [RStudio Connect](https://rstudio.com/products/connect/){target="_blank"} & [RStudio Quickstart](https://rstudio.com/products/quickstart/){target="_blank"}
++ [Homework 5](https://rstudio.cloud/spaces/44710/project/816502){target="_blank"} Questions
++ Midterm Grades  
+![](exam-1-grade-distribution.png)
++ [Enter the Tidyverse](https://www.tidyverse.org/){target="_blank"}  
+![](data-science-workflow.png)
++ [Tidy Tuesday Data](https://github.com/rfordatascience/tidytuesday){target="_blank"}
+
+#### 2020-02-10
+
+*Our present and our future will be happier if we are all always conscious of
+the future. As we make current decisions we should always be asking "where will
+this lead?"*
+
+\- Dallin H. Oaks ([GC April
+2019](https://www.lds.org/general-conference/2019/04/media/session_3_talk_8/6023569787001?lang=eng){target="_blank"})
+
++ Announcements:
+  + Upcoming schedule
+  + [Homework 4](https://rstudio.cloud/spaces/44710/project/816501){target="_blank"} due tonight at 11:59pm
++ R Moment: [Plumber](https://www.rplumber.io/){target="_blank"}
++ Introduction to [Permutation Tests](https://en.wikipedia.org/wiki/Resampling_(statistics)#Permutation_tests){target="_blank"}
+![Hypothesis testing visualization](hypothesis-testing.png)
+
++ [There is only one test](http://allendowney.blogspot.com/2016/06/there-is-still-only-one-test.html){target="_blank"}
+  + Brothers | [`10/l10_brothers.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+  + Faithful | [`10/l10_faithful.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+  + GPA | [`10/l10_gpa.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ [Homework 5](https://rstudio.cloud/spaces/44710/project/816502){target="_blank"} Assigned (Due 2020-12-19 at 11:59pm)
+
+#### 2020-02-05
+
+*Chidi, here's the thing with stuff. You can look at a problem from every angle
+and drive yourself crazy, but sometimes, you just gotta huck a Molotov cocktail
+at a drone and see what happens... I mean, where I'm from, most things blow up
+eventually. So I learned that when something dope comes along, you gotta lock it
+down. If you're always frozen in fear and taking too long to think about what to
+do, you'll miss your opportunity and maybe get sucked into the propeller of a
+swamp boat.*
+
+\- Jason Mendoza ([The Good Place S4
+E09](https://en.wikipedia.org/wiki/The_Good_Place){target="_blank"})
+
++ Announcements
+  + [RStudio, PBC](https://blog.rstudio.com/2020/01/29/rstudio-pbc){target="_blank"}
+  + Grading for midterm is ongoing and will be discussed next week
+  + Midterm solutions will be provided next week
++ R Moment: [goodshirt](https://github.com/adam-gruer/goodshirt){target="_blank"} and [bortles](https://github.com/adam-gruer/bortles){target="_blank"}
++ [Homework 4](https://rstudio.cloud/spaces/44710/project/816501){target="_blank"} Questions
++ Bootstrap Continued
+  + Bootstrap coverage | [`09/l09_bs_coverage.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+  + Bootstrap troubles | [`09/l09_bs_troubles.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+
+<!--
+#### 2019-11-18
+
+*Your struggles do not define you, but they can refine you.*
+
+\- Reyna I. Aburto (GC October 2019)
+
++ Announcements
+  + Exam 1 opens today at approximately 6:30pm
+  + Exam administered and submitted through RStudio Cloud
+  + Open notes, open internet - **not open neighbor**
+  + Due 11:59pm on Wednesday (2019-11-20) (No late submissions accepted)
+  + Plan on ~2-3 hours
+  + No class Wednesday (2019-11-20)
++ R Moment: [reticulate](https://rstudio.github.io/reticulate/){target="_blank"}
++ [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} Questions
++ [Exam Review](https://rstudio.cloud/spaces/36306/project/664663){target="_blank"}
+  + Exam 3: Late
+  + Exam 5: E-commerce
+  + Exam 4: Mike Trout
+
+#### 2019-11-13
+
+*...Alma noted, “Time only is measured unto men.” Because speed is a measure of
+distance over time, if time becomes less relevant, so does speed. Thus, in
+eternal things, such as our ongoing progress in becoming like God, direction is
+more important than speed. In the long run, the direction we are headed matters
+much more than the rate at which we are moving.*
+
+\- Kevin J. Worthen ([BYU Devotional January 8,
+2019](https://speeches.byu.edu/talks/kevin-j-worthen_knowing-who-you-are/){target="_blank"})
+
++ Announcements:
+  + Exam 1 opens a on Monday (2019-11-18)
+    + In class review on Monday (2019-11-18)
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Due 11:59pm on Wednesday (2019-11-20) (No late submissions accepted)
+    + Plan on ~2-3 hours
+    + No class Wednesday (2019-11-20)
++ R Moment: [blogdown](https://bookdown.org/yihui/blogdown/){target="_blank"}
+  + [rbind.io](https://support.rbind.io/about/)
++ [Hypothesis Testing](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"} (`05/l05_mean.Rmd`)
++ Introduction to [Bootstrap](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
+
+    "Bootstrapping is the practice of estimating properties of an estimator
+    (such as its variance) by measuring those properties when sampling from an
+    approximating distribution." -
+    [Wikipedia](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
+
+  + [Bootstrap confidence interval on mean](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+(`08/l08_mean.Rmd`)
+  + [Memory loss](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+(`08/l08_memory.Rmd`)
+  + [Confidence interval](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+(`08/l08_ci.Rmd`)
++ [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} is assigned (due 2019-11-25 at 11:59pm)
+
+
+#### 2020-02-03
+
+*Within each one of us, regardless of our own unique circumstances, challenges,
+and even mistakes we have made, there is currently an essence of the divine. It
+is part of our nature—a part of who we are that does not change.*
+
+\- Kevin J. Worthen ([BYU Devotional January 8, 2019](https://speeches.byu.edu/talks/kevin-j-worthen_knowing-who-you-are/){target="_blank"})
+
++ R Moment: [Local Interpretable Model-agnostic Explanations (lime)](https://github.com/thomasp85/lime){target="_blank"}
+
+<iframe src="https://drive.google.com/file/d/1qiNxEq4D4gzR_lzc4EYuaZ8zfrdipXZh/preview" width="640" height="480"></iframe>
+
++ Introduction to [Bootstrap](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
+
+> "Bootstrapping is the practice of estimating properties of an estimator
+(such as its variance) by measuring those properties when sampling from an
+approximating distribution." -
+[Wikipedia](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
+
++ Bootstrap confidence interval on mean | [`08/l08_mean.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ Memory loss | [`08/l08_memory.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ Confidence interval | [`08/l08_ci.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ [Homework 4](https://rstudio.cloud/spaces/44710/project/816501){target="_blank"} is assigned (Due 2020-02-10 at 11:59pm)
+
+#### 2020-01-27
+
++ Announcements:
+  + Midterm opens Today at ~6:30
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Due 11:59pm on Wednesday (2020-01-29) (No late submissions accepted)
+    + Plan on ~2-3 hours
+    + No class Wednesday (2020-01-29)
+  + Homework 3 due tonight at 11:59pm
+    
++ [Midterm Review](https://rstudio.cloud/spaces/44710/project/816503){target="_blank"}
+  + Note: If you don't see the most recent exam (exam 6), click on the **Git** pane in the top right-hand corner and then click **Pull**
+  ![git pull screenshot](git-pull.png)
+  
+#### 2020-01-22
+
+*Face your doubts. Master your fears. “Cast not away therefore your confidence.”
+Stay the course and see the beauty of life unfold for you.*
+
+\- Jeffrey R. Holland ([BYU Devotional March 2, 1999](https://speeches.byu.edu/talks/jeffrey-r-holland_cast-not-away-therefore-your-confidence/){target="_blank"})
+
++ R Moment: [cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
++ Announcemnts:
+  + RStudio Cloud issues
+  + I'm out of town Monday. A TA will conduct an in-class review for the midterm
+  + Midterm opens Monday at 6:30
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Due 11:59pm on Wednesday (2020-01-29) (No late submissions accepted)
+    + Plan on ~2-3 hours
+    + No class Wednesday (2020-01-29)
++ Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ Simulation study for simple linear regression | [`06/l06_regression.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ [Homework 3](https://rstudio.cloud/spaces/44710/project/816500){target="_blank"} is assigned (Due 2020-01-27 at 6:30pm)
+
+#### 2020-01-15
+
+*And it came to pass that the voice of the Lord came to them in their
+afflictions, saying: Lift up your heads and be of good comfort, for I know of
+the covenant which ye have made unto me; and I will covenant with my people and
+deliver them out of bondage. And I will also ease the burdens which are put upon
+your shoulders, that even you cannot feel them upon your backs, even while you
+are in bondage; and this will I do that ye may stand as witnesses for me
+hereafter, and that ye may know of a surety that I, the Lord God, do visit my
+people in their afflictions.*
+
+\- [Mosiah 24:13-14](https://www.lds.org/scriptures/bofm/mosiah/24.13-14?lang=eng){target="_blank"}
+
++ Announcements:
+  + [Assignment Checklist](assignments.html) has been updated
++ R Moment: [r2d3](https://rstudio.github.io/r2d3/){target="_blank"}
++ [Simulation Study Outline](sim-study-outline.html)
++ [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
++ [Costume Party](https://rstudio.cloud/spaces/44710/project/816507){target="_blank"}
++ Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+
+#### 2020-01-13
+
+*Yes, you face challenges. But so does every generation. These are our days, and
+we need to be faithful, not faithless. I testify that the Lord knows about our
+challenges, and through the leadership of President Nelson, He is preparing us
+to meet them.*
+
+\- Stephen W. Owen ([GC October 2019](https://www.churchofjesuschrist.org/study/general-conference/2019/10/13owen?lang=eng){target="_blank"})
+
++ Announcements:
+  + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} due today at 11:59pm
+  + CFP National Championship Tonight - root for, LSU?, I guess?
++ R Moment: [Shiny](http://shiny.rstudio.com/){target="_blank"}
++ [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} questions
++ Assessing uncertainty in simulation studies | [`03/l03_flipping_coins.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ The Central Limit Theorem | [`03/l03_central_limit_theorem.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
++ [Homework 2](https://rstudio.cloud/spaces/44710/project/816499){target="_blank"} is assigned (Due 2020-01-21 at 11:59pm)
+
+
+#### 2020-01-08
+
+*I testify that his intelligence is vastly superior in every field to the very 
+brightest mortals in those fields and that his intellect in scope and truth far 
+exceeds all human intellects. I thank him for encapsulating that exquisite mind 
+in both perfect love and perfect humility. His brilliance is not the 
+“catch-me-if-you-can” kind, but a pleading and patient, “Come, follow me.”*
+
+\- Neal A. Maxwell ([GC April 1976](https://www.lds.org/general-conference/1976/04/jesus-of-nazareth-savior-and-king?lang=eng){target="_blank"})
+
++ Announcements
+  + If you do not have access to course materials / assignments on RStudio
+  Cloud, click
+  [here](https://rstudio.cloud/spaces/44710/join?access_code=MQkE91b62JJFRv5wQGBBhDWkN9w9904eywo5uDhZ){target="_blank"}.
+  If that doesn't work, send me an email and I'll make sure you have the
+  appropriate access.
++ R Moment: [Tidyverse](https://www.tidyverse.org/){target="_blank"}
++ [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} Questions
++ [Stat 223 Style Guide](coding-standards.html)
++ Introduction to simulation studies:
+  + "Simulation study" and "Monte Carlo study" are synonymous.
+  + Represent a real-world process programatically in order to evaluate statistical
+  properties
+  + Uses include:
+    + Describing distributions (e.g., mean, variance, quantiles).
+    + Evaluating point estimators.
+    + Evaluating confidence intervals.
+    + Investigating the properties and performance of testing hypothesis procedures.
+    + Checking the finite-sample statistical properties of estimators and testing 
+    procedures that have been motivated through asymptotics.
+    + and many others...
+  + Especially useful when theoretical derivations are unavailable, difficult, 
+    or intractable.
++ Flipping coins | [`02/l02_coins.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+-->
+<div id="section" class="section level4">
+<h4>2020-03-02</h4>
+<p><em>He felt all that was sad, wicked, or bad, All the pain we would ever know. While His friends were asleep, He fought to keep His promise made long ago. Gethsemane. Jesus loves me, So He went willingly to Gethsemane.</em></p>
+<p>- Melanie Hoffman (<a href="https://www.lds.org/friend/2018/03/gethsemane?lang=eng" target="_blank">Gethsemane</a>)</p>
+<ul>
+<li>About me</li>
+<li><a href="syllabus.html">Course Syllabus</a></li>
+<li>Course Schedule
+<ul>
+<li>Out of town:
+<ul>
+<li>April 6 - 8</li>
+</ul></li>
+</ul></li>
+<li>Introduction to <a href="https://rstudio.cloud" target="_blank">RStudio Cloud</a>
+<ul>
+<li>Choose a First and Last Name that will allow you to be easily identified - this is how we match work in RStudio Cloud back to Learning Suite</li>
+<li>Access the <a href="https://rstudio.cloud/spaces/54745/join?access_code=vXfSwTSMrsYrikBaaoNmkhsS%2BXK5oLwQXtl3R0Ij" target="_blank">course workspace</a></li>
+<li>All assignments <strong>must</strong> remain in the course workspace in order to be graded</li>
+</ul></li>
+<li>Why R is awesome (Stat 123 Review) | <a href="https://rstudio.cloud/spaces/54745/project/996769" target="_blank"><code>01/l01_review.Rmd</code></a></li>
+<li><a href="https://rstudio.cloud/spaces/54745/project/996770" target="_blank">Homework 1</a> is assigned (Due 2020-03-09 at 11:59 pm)</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

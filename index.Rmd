@@ -1,0 +1,38 @@
+---
+title: 'BYU Stat 223: Applied R Programming'
+output: html_document
+---
+
+This is the homepage for BYU Stats 223: Applied R Programming, Winter 2020, Term 2
+
+---
+
+**Section 002** | MW 3:00 - 4:20 | *2104 JKB*
+
+
+**Section 004** | MW 4:30 - 5:50 | *2104 JKB*
+
+---
+
+### Instructor
+The instructor for this course is James Blair.
+
+* Office: 204 TMCB (On campus Mon and Wed only)
+  * Office Hours:
+    * Monday 1:00-1:30 pm
+    * Wednesday 2:00-2:30 pm
+* Email: [blair@stat.byu.edu](mailto:blair@stat.byu.edu)
+
+### TAs
+*All TA office hours are in 244 TMCB*
+
+* Matthew Morgan | [matt4byu@gmail.com](mailto:matt4byu@gmail.com)
+  * MW 11am-1pm
+  * T 12pm-1pm; 3pm-4pm
+* Joe Cosby | [josephcoz@gmail.com](mailto:josephcoz@gmail.com)
+  * MW 9am-12pm
+* Skyler Gray | [skylerg022@gmail.com](mailto:skylerg022@gmail.com)
+  * MW 1pm-3pm
+* Daniel Tolley | [dtolley1997@gmail.com](mailto:dtolley1997@gmail.com)
+  * T 10am-11am
+  * Th 10am-12pm
