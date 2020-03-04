@@ -374,9 +374,9 @@ to meet them.*
 + The Central Limit Theorem | [`03/l03_central_limit_theorem.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 + [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
 + [Homework 2](https://rstudio.cloud/spaces/44710/project/816499){target="_blank"} is assigned (Due 2020-01-21 at 11:59pm)
+-->
 
-
-#### 2020-01-08
+#### 2020-03-04
 
 *I testify that his intelligence is vastly superior in every field to the very 
 brightest mortals in those fields and that his intellect in scope and truth far 
@@ -389,12 +389,11 @@ in both perfect love and perfect humility. His brilliance is not the
 + Announcements
   + If you do not have access to course materials / assignments on RStudio
   Cloud, click
-  [here](https://rstudio.cloud/spaces/44710/join?access_code=MQkE91b62JJFRv5wQGBBhDWkN9w9904eywo5uDhZ){target="_blank"}.
+  [here](https://rstudio.cloud/spaces/54745/join?access_code=vXfSwTSMrsYrikBaaoNmkhsS%2BXK5oLwQXtl3R0Ij){target="_blank"}.
   If that doesn't work, send me an email and I'll make sure you have the
   appropriate access.
 + R Moment: [Tidyverse](https://www.tidyverse.org/){target="_blank"}
-+ [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} Questions
-+ [Stat 223 Style Guide](coding-standards.html)
++ [Homework 1](https://rstudio.cloud/spaces/54745/project/996770){target="_blank"} Questions
 + Introduction to simulation studies:
   + "Simulation study" and "Monte Carlo study" are synonymous.
   + Represent a real-world process programatically in order to evaluate statistical
@@ -410,7 +409,6 @@ in both perfect love and perfect humility. His brilliance is not the
   + Especially useful when theoretical derivations are unavailable, difficult, 
     or intractable.
 + Flipping coins | [`02/l02_coins.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
--->
 
 #### 2020-03-02
 
