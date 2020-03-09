@@ -355,8 +355,9 @@ people in their afflictions.*
 + [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
 + [Costume Party](https://rstudio.cloud/spaces/44710/project/816507){target="_blank"}
 + Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
+-->
 
-#### 2020-01-13
+#### 2020-03-09
 
 *Yes, you face challenges. But so does every generation. These are our days, and
 we need to be faithful, not faithless. I testify that the Lord knows about our
@@ -366,15 +367,13 @@ to meet them.*
 \- Stephen W. Owen ([GC October 2019](https://www.churchofjesuschrist.org/study/general-conference/2019/10/13owen?lang=eng){target="_blank"})
 
 + Announcements:
-  + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} due today at 11:59pm
-  + CFP National Championship Tonight - root for, LSU?, I guess?
+  + [Homework 1](https://rstudio.cloud/spaces/54745/project/996770){target="_blank"} due today at 11:59pm
 + R Moment: [Shiny](http://shiny.rstudio.com/){target="_blank"}
 + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} questions
 + Assessing uncertainty in simulation studies | [`03/l03_flipping_coins.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 + The Central Limit Theorem | [`03/l03_central_limit_theorem.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
-+ [Plotting Review](https://rstudio.cloud/spaces/44710/project/816508){target="_blank"}
-+ [Homework 2](https://rstudio.cloud/spaces/44710/project/816499){target="_blank"} is assigned (Due 2020-01-21 at 11:59pm)
--->
++ [Plotting Review](https://rstudio.cloud/spaces/54745/project/996780){target="_blank"}
++ [Homework 2](https://rstudio.cloud/spaces/54745/project/996771){target="_blank"} is assigned (Due 2020-03-16 at 11:59pm)
 
 #### 2020-03-04
 
