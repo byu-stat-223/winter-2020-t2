@@ -367,6 +367,7 @@ to meet them.*
 \- Stephen W. Owen ([GC October 2019](https://www.churchofjesuschrist.org/study/general-conference/2019/10/13owen?lang=eng){target="_blank"})
 
 + Announcements:
+  + [Utah County R User Group](https://www.meetup.com/utah-county-rug){target="_blank"}
   + [Homework 1](https://rstudio.cloud/spaces/54745/project/996770){target="_blank"} due today at 11:59pm
 + R Moment: [Shiny](http://shiny.rstudio.com/){target="_blank"}
 + [Homework 1](https://rstudio.cloud/spaces/44710/project/816498){target="_blank"} questions
