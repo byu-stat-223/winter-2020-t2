@@ -313,8 +313,9 @@ approximating distribution." -
 + [Midterm Review](https://rstudio.cloud/spaces/44710/project/816503){target="_blank"}
   + Note: If you don't see the most recent exam (exam 6), click on the **Git** pane in the top right-hand corner and then click **Pull**
   ![git pull screenshot](git-pull.png)
-  
-#### 2020-01-22
+-->
+
+#### 2020-03-18 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
 
 *Face your doubts. Master your fears. “Cast not away therefore your confidence.”
 Stay the course and see the beauty of life unfold for you.*
@@ -322,19 +323,14 @@ Stay the course and see the beauty of life unfold for you.*
 \- Jeffrey R. Holland ([BYU Devotional March 2, 1999](https://speeches.byu.edu/talks/jeffrey-r-holland_cast-not-away-therefore-your-confidence/){target="_blank"})
 
 + R Moment: [cheatsheets](https://www.rstudio.com/resources/cheatsheets/){target="_blank"}
-+ Announcemnts:
-  + RStudio Cloud issues
-  + I'm out of town Monday. A TA will conduct an in-class review for the midterm
-  + Midterm opens Monday at 6:30
-    + Exam administered and submitted through RStudio Cloud
-    + Open notes, open internet - **not open neighbor**
-    + Due 11:59pm on Wednesday (2020-01-29) (No late submissions accepted)
-    + Plan on ~2-3 hours
-    + No class Wednesday (2020-01-29)
++ Announcements:
+  + Virtual office hours
+  + Term schedule
++ [Homework 2](https://rstudio.cloud/spaces/54745/project/996771){target="_blank"} Questions
 + Confidence Intervals | [`04/l04_ci.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 + Simulation study for simple linear regression | [`06/l06_regression.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
-+ [Homework 3](https://rstudio.cloud/spaces/44710/project/816500){target="_blank"} is assigned (Due 2020-01-27 at 6:30pm)
--->
++ [Homework 3](https://rstudio.cloud/spaces/54745/project/996772){target="_blank"} is assigned (Due 2020-03-25 at 11:59pm)
+
 
 #### 2020-03-11
 
