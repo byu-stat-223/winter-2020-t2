@@ -11,19 +11,28 @@ In a simulation study we're often interested in exploring the behavior of a samp
 statistic (ie the total number of coins that are heads). The following provides 
 a general guideline for building simulation studies in R.
 
-1. Create a function that performs a single simulation and returns the value of 
-importance.
+1. Identify the value of importance. This is the value you're interested in
+understanding. For example, this might be the number of heads shown after
+flipping a collection of coins. Or it might be a single `TRUE` or `FALSE` value
+indicating whether or not two people shared a birthday. In most cases, this is a
+single value representing the outcome of a single simulation.
+
+2. Create a function that performs a single simulation and returns the value of 
+importance.  
     - This value may be the total count of something, a proportion, or any other 
     summary statistic calculated based on a **single sample**.
-2. Using the function previously created, run thousands of simulations and capture 
+    
+3. Using the function previously created, run thousands of simulations and capture 
 the results.
     - After this step, you will have thousands of values, each representing the 
     result of a single simulation.
-3. Given the collection of values resulting from step 2, calculate the value you
+    
+4. Given the collection of values resulting from step 2, calculate the value you
 set out to determine.
-    - This caculation takes the thousands of values previously calculated and
+    - This calculation takes the thousands of values previously calculated and
     condenses them into a single summary value (ie mean, proportion, etc).
-4. Calculate Monte Carlo (simulation) error.
+    
+5. Calculate Monte Carlo (simulation) error.
     - Calculate a confidence interval around the summary statistic calculated in
     step 3. This confidence interval is a function of the summary statistic itself 
     as well as the number of simulations performed (the size of your sample).

@@ -314,19 +314,20 @@ $(document).ready(function () {
 
 <p>In a simulation study we’re often interested in exploring the behavior of a sample statistic (ie the total number of coins that are heads). The following provides a general guideline for building simulation studies in R.</p>
 <ol style="list-style-type: decimal">
-<li>Create a function that performs a single simulation and returns the value of importance.
+<li><p>Identify the value of importance. This is the value you’re interested in understanding. For example, this might be the number of heads shown after flipping a collection of coins. Or it might be a single <code>TRUE</code> or <code>FALSE</code> value indicating whether or not two people shared a birthday. In most cases, this is a single value representing the outcome of a single simulation.</p></li>
+<li><p>Create a function that performs a single simulation and returns the value of importance.</p>
 <ul>
 <li>This value may be the total count of something, a proportion, or any other summary statistic calculated based on a <strong>single sample</strong>.</li>
 </ul></li>
-<li>Using the function previously created, run thousands of simulations and capture the results.
+<li><p>Using the function previously created, run thousands of simulations and capture the results.</p>
 <ul>
 <li>After this step, you will have thousands of values, each representing the result of a single simulation.</li>
 </ul></li>
-<li>Given the collection of values resulting from step 2, calculate the value you set out to determine.
+<li><p>Given the collection of values resulting from step 2, calculate the value you set out to determine.</p>
 <ul>
-<li>This caculation takes the thousands of values previously calculated and condenses them into a single summary value (ie mean, proportion, etc).</li>
+<li>This calculation takes the thousands of values previously calculated and condenses them into a single summary value (ie mean, proportion, etc).</li>
 </ul></li>
-<li>Calculate Monte Carlo (simulation) error.
+<li><p>Calculate Monte Carlo (simulation) error.</p>
 <ul>
 <li>Calculate a confidence interval around the summary statistic calculated in step 3. This confidence interval is a function of the summary statistic itself as well as the number of simulations performed (the size of your sample).</li>
 </ul></li>
