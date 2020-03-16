@@ -3,6 +3,8 @@ title: 'BYU Stat 223: Applied R Programming'
 output: html_document
 ---
 
+## [**Live Lectures (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
+
 This is the homepage for BYU Stats 223: Applied R Programming, Winter 2020, Term 2
 
 ---
@@ -13,6 +15,7 @@ This is the homepage for BYU Stats 223: Applied R Programming, Winter 2020, Term
 **Section 004** | MW 4:30 - 5:50 | *2104 JKB*
 
 ---
+
 
 ### Instructor
 The instructor for this course is James Blair.
