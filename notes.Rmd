@@ -315,7 +315,7 @@ approximating distribution." -
   ![git pull screenshot](git-pull.png)
 -->
 
-#### 2020-03-18 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
+#### 2020-03-18 | [**Recorded Lecture**](https://byu.box.com/s/an87psv7hh7obrhku60ohpdmsdvsahad){target="_blank"}
 
 *Face your doubts. Master your fears. “Cast not away therefore your confidence.”
 Stay the course and see the beauty of life unfold for you.*
