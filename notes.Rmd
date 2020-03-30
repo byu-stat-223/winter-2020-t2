@@ -273,19 +273,21 @@ much more than the rate at which we are moving.*
   + [Confidence interval](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 (`08/l08_ci.Rmd`)
 + [Homework 4](https://rstudio.cloud/spaces/36306/project/664614){target="_blank"} is assigned (due 2019-11-25 at 11:59pm)
+-->
 
+#### 2020-03-30 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
 
-#### 2020-02-03 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
+*...Alma noted, “Time only is measured unto men.” Because speed is a measure of
+distance over time, if time becomes less relevant, so does speed. Thus, in
+eternal things, such as our ongoing progress in becoming like God, direction is
+more important than speed. In the long run, the direction we are headed matters
+much more than the rate at which we are moving.*
 
-*Within each one of us, regardless of our own unique circumstances, challenges,
-and even mistakes we have made, there is currently an essence of the divine. It
-is part of our nature—a part of who we are that does not change.*
+\- Kevin J. Worthen ([BYU Devotional January 8,
+2019](https://speeches.byu.edu/talks/kevin-j-worthen_knowing-who-you-are/){target="_blank"})
 
-\- Kevin J. Worthen ([BYU Devotional January 8, 2019](https://speeches.byu.edu/talks/kevin-j-worthen_knowing-who-you-are/){target="_blank"})
-
-+ R Moment: [Local Interpretable Model-agnostic Explanations (lime)](https://github.com/thomasp85/lime){target="_blank"}
-
-<iframe src="https://drive.google.com/file/d/1qiNxEq4D4gzR_lzc4EYuaZ8zfrdipXZh/preview" width="640" height="480"></iframe>
++ R Moment: [blogdown](https://bookdown.org/yihui/blogdown/){target="_blank"}
+  + [rbind.io](https://support.rbind.io/about/)
 
 + Introduction to [Bootstrap](https://en.wikipedia.org/wiki/Bootstrapping_(statistics)){target="_blank"}
 
@@ -297,8 +299,7 @@ approximating distribution." -
 + Bootstrap confidence interval on mean | [`08/l08_mean.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 + Memory loss | [`08/l08_memory.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 + Confidence interval | [`08/l08_ci.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
-+ [Homework 4](https://rstudio.cloud/spaces/44710/project/816501){target="_blank"} is assigned (Due 2020-02-10 at 11:59pm)
--->
++ [Homework 4](https://rstudio.cloud/spaces/54745/project/996773){target="_blank"} is assigned (Due 2020-04-06 at 11:59pm)
 
 #### 2020-03-23 | [**Recorded Lecture**](https://byu.box.com/s/sae8a2l44yyn9g2enu6f1bnsntbzb0af){target="_blank"}
 
