@@ -192,6 +192,7 @@ this lead?"*
   + Faithful | [`10/l10_faithful.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
   + GPA | [`10/l10_gpa.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 + [Homework 5](https://rstudio.cloud/spaces/44710/project/816502){target="_blank"} Assigned (Due 2020-12-19 at 11:59pm)
+-->
 
 #### 2020-04-01 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
 
@@ -214,7 +215,6 @@ E09](https://en.wikipedia.org/wiki/The_Good_Place){target="_blank"})
 + Bootstrap Continued
   + Bootstrap coverage | [`09/l09_bs_coverage.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
   + Bootstrap troubles | [`09/l09_bs_troubles.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
--->
 
 #### 2020-03-30 | [**Recorded Lecture**](https://byu.box.com/s/1gqi8y0d39xu2fl4qe5idnpnnqay14f0){target="_blank"}
 
