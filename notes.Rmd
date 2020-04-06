@@ -185,6 +185,7 @@ Heavenly Father is our Lord Jesus Christ and His Atonement.*
 + Announcements:
   + [Homework 4](https://rstudio.cloud/spaces/54745/project/996773){target="_blank"} due tonight at 11:59pm
   + Upcoming Schedule
+  + Midterm solutions and discussion on Wednesday
 + R Moment: [Plumber](https://www.rplumber.io/){target="_blank"}
 + Introduction to [Permutation Tests](https://en.wikipedia.org/wiki/Resampling_(statistics)#Permutation_tests){target="_blank"}
 ![Hypothesis testing visualization](hypothesis-testing.png)
