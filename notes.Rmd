@@ -142,7 +142,7 @@ less than the promised blessings.*
 
 <iframe src="https://drive.google.com/file/d/1Z2cQInRqGnUXsgygJDwmySOjnU3MlTG0/preview" width="640" height="480"></iframe>
 
-#### 2020-02-12
+#### 2020-02-12 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
 
 *Considering the Savior’s great promise for peace in this life and eternal life 
 in the life to come, discipleship is a price worth paying. It is a price we cannot 
@@ -172,7 +172,7 @@ less than the promised blessings.*
 + [Tidy Tuesday Data](https://github.com/rfordatascience/tidytuesday){target="_blank"}
 -->
 
-#### 2020-04-06 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
+#### 2020-04-06 | [**Recorded Lecture**](https://byu.box.com/v/stat223-permutation-testing){target="_blank"}
 
 *No matter what kind of storm is battering us — regardless of whether there is a
 solution to it or whether there’s an end in sight — there is only one refuge,
