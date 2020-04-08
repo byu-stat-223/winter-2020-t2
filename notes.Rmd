@@ -160,8 +160,7 @@ temporary.*
     + Exam due 11:59pm on Wednesday (2020-04-15) (No late submissions accepted)
     + No class Wednesday (2020-04-15)
 + R Moment: [RStudio Connect](https://rstudio.com/products/connect/){target="_blank"} & [RStudio Quickstart](https://rstudio.com/products/quickstart/){target="_blank"}
-+ [Homework 5](https://rstudio.cloud/spaces
-/54745/project/996774){target="_blank"} Questions
++ [Homework 5](https://rstudio.cloud/spaces/54745/project/996774){target="_blank"} Questions
 + [Midterm Solutions](https://rstudio.cloud/spaces/54745/project/1125063){target="_blank"}
 + Permutation Tests Continued
   + Faithful | [`10/l10_faithful.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
