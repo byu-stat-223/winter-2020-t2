@@ -6,7 +6,7 @@ output: html_document
 #### [Homework 1](https://rstudio.cloud/spaces/54745/project/996770){target="_blank"} | *Due 2020-03-09 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/54745/project/996778){target="_blank"}
 #### [Homework 2](https://rstudio.cloud/spaces/54745/project/996771){target="_blank"} | *Due 2020-03-18 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/54745/project/996781){target="_blank"}
 #### [Homework 3](https://rstudio.cloud/spaces/54745/project/996772){target="_blank"} | *Due 2020-03-25 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/54745/project/996782){target="_blank"}
-#### [Midterm Exam](https://rstudio.cloud/spaces/54745/project/1070373){target="_blank"} | *Due 2020-03-27 at 11:59pm*
+#### [Midterm Exam](https://rstudio.cloud/spaces/54745/project/1070373){target="_blank"} | *Due 2020-03-27 at 11:59pm* | [Solution](https://rstudio.cloud/spaces/54745/project/1125063){target="_blank"}
 #### [Homework 4](https://rstudio.cloud/spaces/54745/project/996773){target="_blank"} | *Due 2020-04-06 at 11:59pm* 
 #### [Homework 5](https://rstudio.cloud/spaces/54745/project/996774){target="_blank"} | *Due 2020-04-13 at 11:59pm* 
 #### Final Exam | *Due 2020-04-15 at 11:59pm*
