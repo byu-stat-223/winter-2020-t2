@@ -141,36 +141,31 @@ less than the promised blessings.*
 #### 2020-02-18
 
 <iframe src="https://drive.google.com/file/d/1Z2cQInRqGnUXsgygJDwmySOjnU3MlTG0/preview" width="640" height="480"></iframe>
+-->
 
-#### 2020-02-12 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
+#### 2020-04-08 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
 
-*Considering the Savior’s great promise for peace in this life and eternal life 
-in the life to come, discipleship is a price worth paying. It is a price we cannot 
-afford not to pay. By measure, the requirements of discipleship are much, much 
-less than the promised blessings.*
+*Because of the Resurrection, we know that these mortal deficiencies are only
+temporary.*
 
-\- James E. Faust ([GC October 2006](https://www.lds.org/general-conference/2006/10/discipleship?lang=eng){target="_blank"})
+\- Dallin H. Oaks ([GC April 2020](https://www.churchofjesuschrist.org/study/general-conference/2020/04/51oaks?lang=eng){target="_blank"})
 
 + Announcements
-  + [Domo Hackathon](domo-hackathon.png)
-  + Lecture videos for next week will be posted on the course website
-  + Optional TA labs next Tuesday and Wednesday, 3:00-4:30pm in 2104 JKB
   + Final exam
     + Exam administered and submitted through RStudio Cloud
     + Open notes, open internet - **not open neighbor**
     + Plan on ~2-3 hours
-    + Review in class Monday, February 24
-    + Exam opens ~6:30pm on February 24
-    + Exam due 11:59pm on Wednesday (2020-02-26) (No late submissions accepted)
-    + No class Wendesday (2020-02-26)
+    + Review in class Monday, April 13
+    + Exam opens ~5:00pm on April 13
+    + Exam due 11:59pm on Wednesday (2020-04-15) (No late submissions accepted)
+    + No class Wednesday (2020-04-15)
 + R Moment: [RStudio Connect](https://rstudio.com/products/connect/){target="_blank"} & [RStudio Quickstart](https://rstudio.com/products/quickstart/){target="_blank"}
-+ [Homework 5](https://rstudio.cloud/spaces/44710/project/816502){target="_blank"} Questions
-+ Midterm Grades  
-![](exam-1-grade-distribution.png)
-+ [Enter the Tidyverse](https://www.tidyverse.org/){target="_blank"}  
-![](data-science-workflow.png)
-+ [Tidy Tuesday Data](https://github.com/rfordatascience/tidytuesday){target="_blank"}
--->
++ [Homework 5](https://rstudio.cloud/spaces
+/54745/project/996774){target="_blank"} Questions
++ [Midterm Solutions](https://rstudio.cloud/spaces/54745/project/1125063){target="_blank"}
++ Permutation Tests Continued
+  + Faithful | [`10/l10_faithful.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
++ Bootstrapping and Permutation Testing | [`11/l11_bs-perm-comparison.Rmd`](https://rstudio.cloud/spaces/54745/project/996769){target="_blank"}
 
 #### 2020-04-06 | [**Recorded Lecture**](https://byu.box.com/v/stat223-permutation-testing){target="_blank"}
 
