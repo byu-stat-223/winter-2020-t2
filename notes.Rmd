@@ -133,15 +133,31 @@ less than the promised blessings.*
 
 #### 2020-02-26
 - Class canceled for exam
-
-#### 2020-02-19
-
-<iframe src="https://drive.google.com/file/d/1skjOSrn2xTRha_xDiGb9Cdm-xGV5sILf/preview" width="640" height="480"></iframe>
-
-#### 2020-02-18 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
-
-<iframe src="https://drive.google.com/file/d/1Z2cQInRqGnUXsgygJDwmySOjnU3MlTG0/preview" width="640" height="480"></iframe>
 -->
+
+#### 2020-04-13 | [**Live Lecture (Zoom)**](https://byu.zoom.us/j/446827791){target="_blank"}
+
+*Because the Restoration reaffirmed the foundational truth that God does work in
+this world, we can hope, we should hope, even when facing the most
+insurmountable odds. That is what the scripture meant when Abraham was able to
+hope against hope﻿—that is, he was able to believe in spite of every reason not
+to believe﻿—that he and Sarah could conceive a child when that seemed utterly
+impossible.*
+
+\- Jeffrey R. Holland ([GC April
+2020](https://www.churchofjesuschrist.org/study/general-conference/2020/04/43holland?lang=eng){target="_blank"})
+
++ Announcements
+  + Final exam
+    + Exam administered and submitted through RStudio Cloud
+    + Open notes, open internet - **not open neighbor**
+    + Plan on ~2-3 hours
+    + Exam opens after class today
+    + Exam due 11:59pm on Wednesday (2020-04-15) (No late submissions accepted)
+    + No class Wednesday (2020-04-15)
+  * [HW 5 Solutions](https://rstudio.cloud/spaces/54745/project/996784){target="_blank"}
++ R Moment: [h2o](https://www.h2o.ai/){target="_blank"}
++ [Final Exam Review](https://rstudio.cloud/spaces/54745/project/996776){target="_blank"}
 
 #### 2020-04-08 | [**Recorded Lecture**](https://byu.box.com/v/stat223-permutation-testing-2){target="_blank"}
 
